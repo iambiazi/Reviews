@@ -120,7 +120,7 @@ const items = [
   'Book of Latin Translations',
   'Adult Kangaroo Suit',
   'Slytherin Robe',
-  '3 x 12oz Waigu Kobe Ribeye Steaks',
+  '3 x 12oz Wagyu Ribeye Steaks',
   'Maltese Falcon',
   'Mjolnir',
   'Bag of Legal Weed',

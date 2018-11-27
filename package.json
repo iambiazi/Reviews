@@ -17,7 +17,8 @@
     "start": "node server/server.js",
     "build": "webpack-cli -p;  gzip ./client/dist/bundle.js --keep --best --force",
     "deploy:static": "aws s3 cp ./client/dist/bundle.js.gz s3://fectrailblazers/reviews.js --content-encoding gzip",
-    "deploy:beanstalk": "eb deploy"
+    "deploy:beanstalk": "eb deploy",
+    "makeCSV": "node server/db/seedingGenerator1.js & node server/db/seedingGenerator2.js & node server/db/seedingGenerator3.js & node server/db/seedingGenerator4.js & node server/db/seedingGenerator5.js & node server/db/seedingGenerator6.js & node server/db/seedingGenerator7.js & node server/db/seedingGenerator8.js & node server/db/seedingGenerator9.js & node server/db/seedingGenerator10.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -25,6 +26,7 @@
     "compression": "^1.7.3",
     "express": "^4.16.4",
     "express-cassandra": "^2.2.3",
+    "mariadb": "^2.0.1-beta",
     "merge": "^1.2.1",
     "mongoose": "^5.3.6",
     "pg": "^7.5.0",
@@ -44,6 +46,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.2",
     "babel-plugin-styled-components": "^1.8.0",
+    "cassandra-driver": "^3.5.0",
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
     "css-loader": "^1.0.0",
@@ -61,6 +64,7 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "faker": "^4.1.0",
+    "fast-csv": "^2.4.1",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^1.1.2",

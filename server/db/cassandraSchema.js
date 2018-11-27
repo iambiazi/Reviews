@@ -24,7 +24,7 @@ const MyModel = models.loadSchema('Reviews', {
     reviewer: 'text',
     title: 'text',
     body: 'text',
-    recommend: 'boolean',
+    recommend: 'int',
     helpful: 'int',
     unhelpful: 'int',
     posting_date: 'text',

@@ -9,3 +9,5 @@
 !.elasticbeanstalk/*.global.yml
 
 /.idea
+*.csv
+.csv

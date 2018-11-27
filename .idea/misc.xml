@@ -3,4 +3,16 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/test1.csv" />
+    <file url="file://$PROJECT_DIR$/test10.csv" />
+    <file url="file://$PROJECT_DIR$/test2.csv" />
+    <file url="file://$PROJECT_DIR$/test3.csv" />
+    <file url="file://$PROJECT_DIR$/test4.csv" />
+    <file url="file://$PROJECT_DIR$/test5.csv" />
+    <file url="file://$PROJECT_DIR$/test6.csv" />
+    <file url="file://$PROJECT_DIR$/test7.csv" />
+    <file url="file://$PROJECT_DIR$/test8.csv" />
+    <file url="file://$PROJECT_DIR$/test9.csv" />
+  </component>
 </project>
