@@ -7,6 +7,7 @@ import RatingSnapshot from './components/RatingSnapshot.js';
 import AverageRating from './components/AverageRating.js';
 import SortSelector from './components/SortSelector.js';
 
+
 const Main = styled.div`
   margin: 40px auto;
   max-width: 650px;

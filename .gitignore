@@ -11,3 +11,5 @@
 /.idea
 *.csv
 .csv
+
+newrelic.js
